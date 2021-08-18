@@ -1,10 +1,11 @@
 <script>
   import { fade } from 'svelte/transition';
 
+  //TODO navigating away needs fadout to happen
+
+
   export let words;
   export let classStyle = "text-white"
-
-  // let words = ["lilpaca","nimdicators", "enzyme"]
 
   let visible = true
   let showWord = true
@@ -35,9 +36,9 @@
     };
   }
 
-   function typewriterOut(node, { speed = 75 }) {
+   function typewriterOut(node, { speed = 100 }) {
     const text = words[idx]
-    const duration = text.length * speed;
+    const duration = 1
 
     return {
       duration,
@@ -45,7 +46,7 @@
         const i = ~~(text.length * t);
         node.textContent = text.slice(0, i);
         if(t == 0) {
-          sleep(1500).then(() => {
+          sleep(500).then(() => {
             if (idx + 1 >= words.length ) {
               idx = 0
             } else {

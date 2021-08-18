@@ -1,8 +1,6 @@
 <script>
-  import { link } from "svelte-routing";
+  import { Link } from "svelte-routing";
 
-  // core components
-  import Footer from "components/Footers/FooterSmall.svelte";
   const nimLogo = "/assets/img/nim-logo.svg"
 
 </script>
@@ -72,12 +70,11 @@
           nim-lang.nim.wiki
         </a>
         ). You will also need to get the link to your GitHub Pages webpage, and create a brief description of what you domain will include. Examples can be found on the 
-        <a
-          href="/directory"
+        <Link to="/directory"
           class="text-primary font-bold"
         >
           directory page
-        </a>
+        </Link>
         , or instructions can be found at the 
         <a
           href="https://github.com/isaacdonaldson/nim-wiki"
@@ -122,18 +119,16 @@
 
 
     <div class="mt-12">
-          <a
-            href="/"
+          <Link to="/"
             class="text-secondary-dark font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-primary active:bg-yellow-200 hover:bg-yellow-200 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Home
-          </a>
-          <a
-            href="/directory"
+          </Link>
+          <Link to="/directory"
             class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 hover:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Directory
-          </a>
+          </Link>
         </div>
 
   </div>
