@@ -2,7 +2,12 @@ application:
   domain: demo
   github-page: https://jsonbash.github.io/nim-wiki-demo 
   description: A demo site to show steps to get nim.wiki domain 
-  
+
+application:
+  domain: prologue
+  github-page: https://planety.github.io/prologue
+  description: Powerful and flexible web framework written in Nim
+
 application:
   domain: <your proposed subdomain>
   github-page: https://<username>.github.io/<optional repo>
