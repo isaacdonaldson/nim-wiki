@@ -2,3 +2,8 @@ application:
   domain: demo
   github-page: https://jsonbash.github.io/nim-wiki-demo 
   description: A demo site to show steps to get nim.wiki domain 
+  
+application:
+  domain: <your proposed subdomain>
+  github-page: https://<username>.github.io/<optional repo>
+  description: A project in need of a domain
