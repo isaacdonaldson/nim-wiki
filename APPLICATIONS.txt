@@ -2,7 +2,12 @@ application:
   domain: demo
   github-page: https://jsonbash.github.io/nim-wiki-demo 
   description: A demo site to show steps to get nim.wiki domain 
-  
+
+application:
+  domain: xlsx
+  github-page:  https://xflywind.github.io/xlsx
+  description: Parse excel written in Nim.
+
 application:
   domain: <your proposed subdomain>
   github-page: https://<username>.github.io/<optional repo>
