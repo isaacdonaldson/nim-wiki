@@ -2,9 +2,9 @@
   import { Link } from "svelte-routing";
   import TypeWriter from "components/Custom/TypeWriter.svelte"
 
-  const domainNames = ['nimdicators', 'nim-lang', 'prologue'];
+  const domainNames = ['demo'];
 
-  const nimLogo = "/assets/img/nim-logo.svg"
+  const nimLogo = "/android-chrome-512x512.png"
 </script>
 
 <svelte:head>
@@ -20,7 +20,7 @@
   >
     <img
       src="{nimLogo}"
-      alt="Nim Language Logo"
+      alt="Nim Wiki Logo"
     />
   </a>
   <div class="container mx-auto items-center flex flex-wrap">

@@ -1,7 +1,7 @@
 <script>
   import { Link } from "svelte-routing";
 
-  const nimLogo = "/assets/img/nim-logo.svg"
+  const nimLogo = "/android-chrome-512x512.png"
 
 </script>
 
@@ -19,7 +19,7 @@
   >
     <img
       src="{nimLogo}"
-      alt="Nim Language Logo"
+      alt="Nim Wiki Logo"
     />
   </a>
 
@@ -83,7 +83,7 @@
         >
           nim-wiki
         </a>
-        repository. 
+        repository. Once you have created your GitHub Page and chosen a domain name, in Setting > Pages enter your chosen domain name and it will create the CNAME file for you. This is step is needed.
       </p>
     </div>
 
