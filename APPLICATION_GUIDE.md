@@ -2,7 +2,7 @@
 
 *This guide assumes you have a working GitHub Pages website*
 
-### Steps to add a CNAME record to your pages
+## Steps to add a CNAME record to your GitHub Pages repository
 * Go to the setting tab located in the bar:<br>
 <img src="https://github.com/isaacdonaldson/nim-wiki/blob/main/guide-images/settings-bar.png?raw=true">
 
@@ -21,7 +21,45 @@
 
 * Optionally, you can enforce HTTPS to only allow https traffic by selecting that check box in the Pages Settings tab<br>
 
+<br>
+<hr>
 
-### Creating a pull request to apply for the domain
+
+## Creating a pull request to apply for the domain
+* Visit the nim-wiki APPLICATIONS.txt file: https://github.com/isaacdonaldson/nim-wiki/blob/main/APPLICATIONS.txt <br> 
+(or click on the file from the nim-wiki repo homepage)<br>
+<img src="https://github.com/isaacdonaldson/nim-wiki/blob/main/guide-images/application-file.png?raw=true">
+
+* Click on the edit button on the top right of the viewer: <br>
+<img src="https://github.com/isaacdonaldson/nim-wiki/blob/main/guide-images/edit-button.png?raw=true">
+
+* This will fork the repo into your own GitHub account and create a branch for you: <br>
+<img src="https://github.com/isaacdonaldson/nim-wiki/blob/main/guide-images/fork-repo-message.png?raw=true">
+<img src="https://github.com/isaacdonaldson/nim-wiki/blob/main/guide-images/before-edit-addition.png?raw=true">
+
+
+* To apply for a domain, you must **append** your information into the APPLICATIONS.txt file, with this following format:
+```
+application:
+  domain: <subdomain>
+  github-page: https://<useranme>.github.io/<repo (optional)>
+  description: <project description>
+```
+<img src="https://github.com/isaacdonaldson/nim-wiki/blob/main/guide-images/after-edit-application.png?raw=true">
+
+* After you have added the file, give your commit a title and click the 'Propose changes' button: <br>
+<img src="https://github.com/isaacdonaldson/nim-wiki/blob/main/guide-images/commit-changes.png?raw=true">
+
+* A message like the following should appear. You should then choose to 'Create pull request', and a prompt will appear (provide domain name in the pull request title): <br>
+<img src="https://github.com/isaacdonaldson/nim-wiki/blob/main/guide-images/create-pr.png?raw=true">
+<img src="https://github.com/isaacdonaldson/nim-wiki/blob/main/guide-images/pr-dropdown.png?raw=true">
+
+* Once the pull request is created, a message like the following will appear: <br>
+<img src="https://github.com/isaacdonaldson/nim-wiki/blob/main/guide-images/success-message.png?raw=true">
+
+* If the pull request gets accepted, a message will appear that looks like the following, at which point you should expect the domain to be live within 24 hours: <br>
+<img src="https://github.com/isaacdonaldson/nim-wiki/blob/main/guide-images/pr-was-merged.png?raw=true">
+
+
 
 
