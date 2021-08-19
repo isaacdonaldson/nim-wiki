@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-  <title>Nim Wiki - Apply</title>
+  <title>Nim Wiki - Directory</title>
 </svelte:head>
 
 

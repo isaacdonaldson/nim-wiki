@@ -63,11 +63,11 @@
       <p class="text-2xl leading-relaxed text-white">
         Now you will need to determine your nim-wiki domain. Preferred choices are your GitHub username, or the libraries repository name (ex: 
                 <a
-          href="https://nim-lang.nim.wiki"
+          href="https://demo.nim.wiki"
           target="_blank"
           class="text-primary font-bold"
         >
-          nim-lang.nim.wiki
+          demo.nim.wiki
         </a>
         ). You will also need to get the link to your GitHub Pages webpage, and create a brief description of what you domain will include. Examples can be found on the 
         <Link to="/directory"
@@ -77,13 +77,13 @@
         </Link>
         , or instructions can be found at the 
         <a
-          href="https://github.com/isaacdonaldson/nim-wiki"
+          href="https://github.com/isaacdonaldson/nim-wiki/blob/main/APPLICATION_GUIDE.md"
           class="text-primary font-bold"
           target="_blank"
         >
           nim-wiki
         </a>
-        repository. Once you have created your GitHub Page and chosen a domain name, in Setting > Pages enter your chosen domain name and it will create the CNAME file for you. This is step is needed.
+        application guide. Once you have created your GitHub Page and chosen a domain name, in Setting > Pages enter your chosen domain name and it will create the CNAME file for you. This is step is required.
       </p>
     </div>
 
@@ -98,7 +98,7 @@
         >
           nim-wiki repository
         </a>
-        and open a pull request that adds your domain, link and description to the APPLICATIONS.md file. A 
+        and open a pull request that adds your domain, link and description to the APPLICATIONS.txt file. A 
         <a
           href="https://github.com/isaacdonaldson/nim-wiki/blob/main/APPLICATION_GUIDE.md"
           class="text-primary font-bold"
