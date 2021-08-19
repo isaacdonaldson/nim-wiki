@@ -4,9 +4,9 @@ application:
   description: A demo site to show steps to get nim.wiki domain 
 
 application:
-  domain: prologue
-  github-page: https://planety.github.io/prologue
-  description: Powerful and flexible web framework written in Nim
+  domain: xlsx
+  github-page:  https://xflywind.github.io/xlsx
+  description: Parse excel written in Nim.
 
 application:
   domain: <your proposed subdomain>
