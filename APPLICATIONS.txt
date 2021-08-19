@@ -1,4 +1,4 @@
 application:
-  domain: nimdicators
-  github-pages: link.github.io
-  description: A nim library to allow technical indicators calculations
+  domain: demo
+  github-page: https://jsonbash.github.io/nim-wiki-demo 
+  description: A demo site to show steps to get nim.wiki domain 
