@@ -55,6 +55,7 @@
           >
             Apply Now
           </Link>
+
           <a
             href="https://github.com/isaacdonaldson/nim-wiki"
             class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 hover:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
@@ -62,6 +63,12 @@
           >
             Github Project
           </a>
+
+          <Link to="/directory"
+            class="text-secondary-dark font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-primary active:bg-yellow-200 hover:bg-yellow-200 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+          >
+          Directory
+          </Link>
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@
     </h2>
 
     <div class="flex items-baseline justify-between w-full max-w-6xl">
-      <span class="text-2xl text-primary mr-4">
+      <span class="text-2xl text-primary mr-4 w-1/4">
         <a
           href="https://demo.nim.wiki"
           class="text-primary font-bold"
@@ -39,11 +39,30 @@
         </a>
       </span>
 
-      <span class="text-xl text-white ml-4">
-        A demo GitHub Pages project using a basic template to show what the result would be like.
+      <span class="text-xl text-white ml-4 w-3/4">       
+        Demonstrates an example project using a basic GitHub Pages web template.
       </span>
       
     </div>
+
+    <div class="flex items-baseline w-full max-w-6xl">
+      <span class="text-2xl text-primary mr-4 w-1/4">
+        <a
+          href="https://xlsx.nim.wiki/utils.html"
+          class="text-primary font-bold"
+          target="_blank"
+        >
+          xlsx.nim.wiki
+        </a>
+      </span>
+
+      <span class="text-xl text-white ml-4 w-3/4">
+        Parsing for excel files. Library written entirely in Nim.
+      </span>
+      
+    </div>
+
+
 
    
 
