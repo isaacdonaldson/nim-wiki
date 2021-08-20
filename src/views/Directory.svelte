@@ -24,12 +24,12 @@
   </a>
     
   <div class="container mx-auto grid justify-items-center max-h-860-px">
-    <h2 class="font-semibold text-4xl text-primary mt-48">
+    <h2 class="font-semibold text-4xl text-primary mt-48 pt-8">
       Domain directory
     </h2>
 
-    <div class="flex items-baseline justify-between w-full max-w-6xl">
-      <span class="text-2xl text-primary mr-4 w-1/4">
+    <div class="flex items-baseline w-full max-w-6xl">
+      <span class="text-2xl text-primary p-4 mr-4 md:w-12/12 lg:w-1/4 xl:w-1/4">
         <a
           href="https://demo.nim.wiki"
           class="text-primary font-bold"
@@ -39,14 +39,14 @@
         </a>
       </span>
 
-      <span class="text-xl text-white ml-4 w-3/4">       
+      <span class="text-xl text-white ml-4 p-4 md:w-12/12 lg:w-3/4 xl:w-3/4">
         Demonstrates an example project using a basic GitHub Pages web template.
       </span>
       
     </div>
 
     <div class="flex items-baseline w-full max-w-6xl">
-      <span class="text-2xl text-primary mr-4 w-1/4">
+      <span class="text-2xl text-primary p-4 mr-4 md:w-12/12 lg:w-1/4 xl:w-1/4">
         <a
           href="https://xlsx.nim.wiki/utils.html"
           class="text-primary font-bold"
@@ -56,7 +56,7 @@
         </a>
       </span>
 
-      <span class="text-xl text-white ml-4 w-3/4">
+      <span class="text-xl text-white ml-4 p-4 md:w-12/12 lg:w-3/4 xl:w-3/4">
         Parsing for excel files. Library written entirely in Nim.
       </span>
       

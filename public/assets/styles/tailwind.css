@@ -2060,6 +2060,10 @@ select {
   padding: 0.5rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -2093,6 +2097,10 @@ select {
 .px-0\.5 {
   padding-left: 0.125rem;
   padding-right: 0.125rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .pb-12 {

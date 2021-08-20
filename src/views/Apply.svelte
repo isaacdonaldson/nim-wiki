@@ -23,8 +23,8 @@
     />
   </a>
 
-  <div class="container mx-auto grid justify-items-center max-h-1024-px">
-    <h2 class="font-semibold text-4xl text-primary mt-48">
+  <div class="container mx-auto grid justify-items-center max-h-1024-px p-4">
+    <h2 class="font-semibold text-4xl text-primary mt-48 pt-8">
       Applying for a domain
     </h2>
 

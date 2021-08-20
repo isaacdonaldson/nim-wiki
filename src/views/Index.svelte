@@ -24,10 +24,10 @@
     />
   </a>
   <div class="container mx-auto items-center flex flex-wrap">
-    <div class="w-full md:w-12/12 lg:w-12/12 xl:w-12/12 px-4">
+    <div class="w-full md:w-12/12 lg:w-12/12 xl:w-12/12 px-4 mt-8">
       <div class="pt-32 sm:pt-0">
         <div class="md:w-8/12 lg:w-6/12 xl:w-6/12">
-        <h2 class="font-semibold text-4xl text-primary">
+        <h2 class="font-semibold text-4xl text-primary pt-8">
           Nim Wiki - A place to host Nim project websites.
         </h2>
         <p class="mt-4 text-lg leading-relaxed text-white">
@@ -49,7 +49,7 @@
           </span>
         </div>
 
-        <div class="mt-12">
+        <div class="mt-12 flex flex-wrap">
           <Link to="/apply"
             class="text-secondary-dark font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-primary active:bg-yellow-200 hover:bg-yellow-200 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
